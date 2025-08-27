@@ -7,7 +7,6 @@
   "authors": [],
   "contact": {},
   "license": "LGPL-3.0",
-  "icon": "assets/xin-queue-answerer/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -17,9 +16,6 @@
       "me.maple_bamboo_team.xinQueueAnswerer.XinQueueAnswerer"
     ]
   },
-  "mixins": [
-    "xin-queue-answerer.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
