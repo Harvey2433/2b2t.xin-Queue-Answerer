@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: remapped.net.fabricmc.fabric-api:fabric-gametest-api-v1-4dd1afbd:1.3.6+85d85a934f" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="remapped.net.fabricmc.fabric-api" artifactId="fabric-gametest-api-v1-4dd1afbd" version="1.3.6+85d85a934f" baseVersion="1.3.6+85d85a934f" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-4dd1afbd/1.3.6+85d85a934f/fabric-gametest-api-v1-4dd1afbd-1.3.6+85d85a934f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

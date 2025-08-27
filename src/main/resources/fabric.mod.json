@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "xin-queue-answerer",
+  "version": "${version}",
+  "name": "2b2t.xin-Queue-Answerer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/xin-queue-answerer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.maple_bamboo_team.xinQueueAnswerer.client.XinQueueAnswererClient"
+    ],
+    "main": [
+      "me.maple_bamboo_team.xinQueueAnswerer.XinQueueAnswerer"
+    ]
+  },
+  "mixins": [
+    "xin-queue-answerer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

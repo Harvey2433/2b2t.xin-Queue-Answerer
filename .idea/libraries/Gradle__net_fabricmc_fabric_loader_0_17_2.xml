@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.fabricmc:fabric-loader:0.17.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.fabricmc" artifactId="fabric-loader" version="0.17.2" baseVersion="0.17.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.17.2/647622ac4163aad5ed5f79ccb532e31225562aa/fabric-loader-0.17.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.17.2/ade78a5256811bfb308e4d24d35630bcdb18610e/fabric-loader-0.17.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

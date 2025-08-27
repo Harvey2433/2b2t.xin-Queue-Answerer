@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: remapped.net.fabricmc.fabric-api:fabric-data-generation-api-v1-4dd1afbd:13.2.6+5c0133444f" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="remapped.net.fabricmc.fabric-api" artifactId="fabric-data-generation-api-v1-4dd1afbd" version="13.2.6+5c0133444f" baseVersion="13.2.6+5c0133444f" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-4dd1afbd/13.2.6+5c0133444f/fabric-data-generation-api-v1-4dd1afbd-13.2.6+5c0133444f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: remapped.net.fabricmc.fabric-api:fabric-dimensions-v1-4dd1afbd:2.1.63+6605d1a84f" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="remapped.net.fabricmc.fabric-api" artifactId="fabric-dimensions-v1-4dd1afbd" version="2.1.63+6605d1a84f" baseVersion="2.1.63+6605d1a84f" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-4dd1afbd/2.1.63+6605d1a84f/fabric-dimensions-v1-4dd1afbd-2.1.63+6605d1a84f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

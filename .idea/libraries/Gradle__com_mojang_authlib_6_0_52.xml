@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mojang:authlib:6.0.52" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.mojang" artifactId="authlib" version="6.0.52" baseVersion="6.0.52" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/6.0.52/65085e2eb921c4a3ebdde3d248637f1776e6d80d/authlib-6.0.52.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/6.0.52/6b1d9a3d56ceb24a74a1938464265a5d0e412edc/authlib-6.0.52-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

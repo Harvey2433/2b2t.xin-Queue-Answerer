@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: remapped.net.fabricmc.fabric-api:fabric-model-loading-api-v1-4dd1afbd:1.0.9+78d798af4f" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="remapped.net.fabricmc.fabric-api" artifactId="fabric-model-loading-api-v1-4dd1afbd" version="1.0.9+78d798af4f" baseVersion="1.0.9+78d798af4f" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-4dd1afbd/1.0.9+78d798af4f/fabric-model-loading-api-v1-4dd1afbd-1.0.9+78d798af4f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

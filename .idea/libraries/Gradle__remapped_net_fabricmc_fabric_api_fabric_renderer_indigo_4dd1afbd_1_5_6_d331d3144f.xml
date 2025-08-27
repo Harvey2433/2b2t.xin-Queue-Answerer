@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: remapped.net.fabricmc.fabric-api:fabric-renderer-indigo-4dd1afbd:1.5.6+d331d3144f" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="remapped.net.fabricmc.fabric-api" artifactId="fabric-renderer-indigo-4dd1afbd" version="1.5.6+d331d3144f" baseVersion="1.5.6+d331d3144f" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-4dd1afbd/1.5.6+d331d3144f/fabric-renderer-indigo-4dd1afbd-1.5.6+d331d3144f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

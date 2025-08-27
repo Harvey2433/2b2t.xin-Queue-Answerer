@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: remapped.net.fabricmc.fabric-api:fabric-renderer-registries-v1-4dd1afbd:3.2.54+df3654b34f" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="remapped.net.fabricmc.fabric-api" artifactId="fabric-renderer-registries-v1-4dd1afbd" version="3.2.54+df3654b34f" baseVersion="3.2.54+df3654b34f" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-registries-v1-4dd1afbd/3.2.54+df3654b34f/fabric-renderer-registries-v1-4dd1afbd-3.2.54+df3654b34f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

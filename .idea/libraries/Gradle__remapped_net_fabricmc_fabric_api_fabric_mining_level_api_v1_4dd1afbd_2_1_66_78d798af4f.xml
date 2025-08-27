@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: remapped.net.fabricmc.fabric-api:fabric-mining-level-api-v1-4dd1afbd:2.1.66+78d798af4f" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="remapped.net.fabricmc.fabric-api" artifactId="fabric-mining-level-api-v1-4dd1afbd" version="2.1.66+78d798af4f" baseVersion="2.1.66+78d798af4f" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-mining-level-api-v1-4dd1afbd/2.1.66+78d798af4f/fabric-mining-level-api-v1-4dd1afbd-2.1.66+78d798af4f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
