@@ -18,8 +18,9 @@ XinQueueAnswerer 是一个专为 2b2t.xin 服务器设计的 Minecraft Fabric �
 ## 使用方法
 
 1. 确保你已安装 Minecraft Fabric 和 Fabric API。
-2. 将 XinQueueAnswerer 模组文件放入 `.minecraft/mods` 文件夹中。
-3. 启动游戏，并连接到 `2b2t.xin` 服务器。
-4. 模组会自动运行。
+2. clone源码并自行构建模组文件
+3. 将 XinQueueAnswerer 模组文件放入 `.minecraft/mods` 文件夹中。
+4. 启动游戏，并连接到 `2b2t.xin` 服务器。
+5. 模组会自动运行。
 
 Powered By Maple Bamboo Team
