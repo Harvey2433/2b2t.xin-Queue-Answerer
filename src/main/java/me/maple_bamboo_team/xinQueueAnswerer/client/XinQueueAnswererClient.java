@@ -271,16 +271,16 @@ public class XinQueueAnswererClient implements ClientModInitializer {
             MutableText HHF = Text.literal("\n");
             MutableText endMessage = CLIENT_PREFIX.copy().append(Text.literal(" 排队即将结束(或已结束)，排队自动答题系统已关闭，祝您玩的开心").setStyle(Style.EMPTY.withColor(Formatting.YELLOW)));
 
-            // 发送所有统计信息
-            MinecraftClient.getInstance().player.sendMessage(header);
-            MinecraftClient.getInstance().player.sendMessage(playerNameText);
-            MinecraftClient.getInstance().player.sendMessage(durationText);
-            MinecraftClient.getInstance().player.sendMessage(startTimeText);
-            MinecraftClient.getInstance().player.sendMessage(endTimeText);
-            MinecraftClient.getInstance().player.sendMessage(answeredCountText);
-            MinecraftClient.getInstance().player.sendMessage(footer);
-            MinecraftClient.getInstance().player.sendMessage(HHF);
-            MinecraftClient.getInstance().player.sendMessage(endMessage);
+            // 发送所有统计信息 - 关键修正：添加第二个参数 false
+            MinecraftClient.getInstance().player.sendMessage(header, false);
+            MinecraftClient.getInstance().player.sendMessage(playerNameText, false);
+            MinecraftClient.getInstance().player.sendMessage(durationText, false);
+            MinecraftClient.getInstance().player.sendMessage(startTimeText, false);
+            MinecraftClient.getInstance().player.sendMessage(endTimeText, false);
+            MinecraftClient.getInstance().player.sendMessage(answeredCountText, false);
+            MinecraftClient.getInstance().player.sendMessage(footer, false);
+            MinecraftClient.getInstance().player.sendMessage(HHF, false);
+            MinecraftClient.getInstance().player.sendMessage(endMessage, false);
 
             log("[REPORT] Session ended, total time: " + totalQueueTimeSeconds + "s, questions answered: " + answeredQuestionCount);
             log("[INFO] End-of-queue message sent");
@@ -290,7 +290,8 @@ public class XinQueueAnswererClient implements ClientModInitializer {
     private void sendStartupMessage() {
         if (MinecraftClient.getInstance().player != null && !hasSentStartupMessage) {
             MutableText message = CLIENT_PREFIX.copy().append(Text.literal(" 已检测到排队环境，排队自动答题系统已启动").setStyle(Style.EMPTY.withColor(Formatting.GREEN)));
-            MinecraftClient.getInstance().player.sendMessage(message);
+            // 关键修正：添加第二个参数 false
+            MinecraftClient.getInstance().player.sendMessage(message, false);
             log("[INFO] Startup message sent to chat");
             hasSentStartupMessage = true;
         }
@@ -302,10 +303,11 @@ public class XinQueueAnswererClient implements ClientModInitializer {
             MutableText message4 = CLIENT_PREFIX.copy().append(Text.literal(" 无需排队或优先队列情况下不会启动自动答题").setStyle(Style.EMPTY.withColor(Formatting.AQUA)));
             MutableText message2 = CLIENT_PREFIX.copy().append(Text.literal(" 请关闭聊天后缀或BetterChat,并执行#set chatControl false以关闭baritone简化控制,防止题目答案被错误拦截").setStyle(Style.EMPTY.withColor(Formatting.AQUA)));
             MutableText message3 = CLIENT_PREFIX.copy().append(Text.literal(" Powered by Maple Client").setStyle(Style.EMPTY.withColor(Formatting.AQUA)));
-            MinecraftClient.getInstance().player.sendMessage(message);
-            MinecraftClient.getInstance().player.sendMessage(message4);
-            MinecraftClient.getInstance().player.sendMessage(message2);
-            MinecraftClient.getInstance().player.sendMessage(message3);
+            // 关键修正：添加第二个参数 false，以兼容 1.19-1.21
+            MinecraftClient.getInstance().player.sendMessage(message, false);
+            MinecraftClient.getInstance().player.sendMessage(message4, false);
+            MinecraftClient.getInstance().player.sendMessage(message2, false);
+            MinecraftClient.getInstance().player.sendMessage(message3, false);
             log("[INFO] Welcome message sent to player");
             hasSentWelcomeMessage = true;
         }
@@ -328,7 +330,6 @@ public class XinQueueAnswererClient implements ClientModInitializer {
 
     /**
      * 将消息写入日志文件，并附加时间戳。
-     * 优化：使用静态的 SimpleDateFormat 减少对象创建开销。
      *
      * @param message 要写入日志的消息
      */

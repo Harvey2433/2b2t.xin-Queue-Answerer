@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        // 这是让 Gradle 能够找到 fabric-loom 插件的关键
         maven {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
@@ -7,3 +8,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+// 您的项目名称
+rootProject.name = 'xin-queue-answerer'
