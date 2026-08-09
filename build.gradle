@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.11-SNAPSHOT'
+    id 'fabric-loom' version '1.17-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -41,7 +41,7 @@ processResources {
 }
 
 // 核心配置：强制使用 Java 17
-def targetJavaVersion = 17
+def targetJavaVersion = 21
 
 tasks.withType(JavaCompile).configureEach {
     it.options.encoding = "UTF-8"
